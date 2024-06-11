@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eng_voc/static/css/main.93a0497a.css",
+    "main.js": "/eng_voc/static/js/main.8b11be66.js",
+    "index.html": "/eng_voc/index.html",
+    "main.93a0497a.css.map": "/eng_voc/static/css/main.93a0497a.css.map",
+    "main.8b11be66.js.map": "/eng_voc/static/js/main.8b11be66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.8b11be66.js"
+  ]
+}
