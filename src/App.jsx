@@ -56,13 +56,14 @@ function isYesterday(date) {
 }
 
 const filterData = function(data, searchText) {
+    searchText = searchText.trim().toLowerCase();
     if (searchText === 'today') {
         return data.filter(row => isToday(row.date));
     }
     else if (searchText === 'yesterday') 
         return data.filter(row => isYesterday(row.date));
     else 
-        return data.filter(row => row.voc.toLowerCase().startsWith(searchText.toLowerCase()))
+        return data.filter(row => row.voc.toLowerCase().startsWith(searchText));
 }
 
 function App() {
