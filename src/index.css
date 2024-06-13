@@ -1,10 +1,24 @@
-*{
-    -ms-overflow-style: none;
-}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #878787 #121212;
+  }
 
-::-webkit-scrollbar {
-    display: none;
-}
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #121212;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #878787;
+    border-radius: 10px;
+    border: 3px solid #121212;
+  }
 
 body {
   margin: 0;
